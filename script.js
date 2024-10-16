@@ -9,7 +9,7 @@ button.addEventListener('click', function() {
     button.textContent = 'Clicked!';
     
     // Add the link here to open a specific URL
-    window.location.href = 'https://www.google.com'; // replace with your desired link
+    window.location.href = 'https://crewtlc.github.io/bacheck/'; // replace with your desired link
     // or use window.open('https://www.example.com', '_blank'); to open in a new tab
   }
 });
