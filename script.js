@@ -1,10 +1,19 @@
-const button = document.getElementById('interactiveButton');
+const bachformbutton = document.getElementById('bachformbutton');
+const mobilechbutton = document.getElementById('mobilechbutton');
+const signspdbutton = document.getElementById("signspdbutton");
+const ambbutton = document.getElementById("ambbutton");
 
-button.addEventListener('BA-Check Form', function() {
-     
-    // Add the link here to open a specific URL
-    window.location.href = 'https://crewtlc.github.io/bacheck/'; // replace with your desired link
-    // or use window.open('https://www.example.com', '_blank'); to open in a new tab
-  }
+bachformbutton.addEventListener("click", function() {
+    window.open('https://crewtlc.github.io/bacheck/',"_blank")
 });
+mobilechbutton.addEventListener("click", function() {
+  window.open('https://crewtlc.github.io/mobilecheck/',"_blank")
+});
+signspdbutton.addEventListener("click", function() {
+  window.open('https://crewtlc.github.io/signalspeed/',"_blank")
+});
+ambbutton.addEventListener("click", function() {
+  window.open('https://crewtlc.github.io/ambush/',"_blank")
+});
+
 

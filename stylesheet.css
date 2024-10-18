@@ -1,32 +1,58 @@
+/* General body styling */
 body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
 }
 
+/* Container styling for the buttons */
 .button-container {
-  text-align: center;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  /* Enhanced shadow for the div */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 350px;
 }
 
+/* Styling for individual buttons */
 .button {
-  padding: 10px 20px;
-  font-size: 18px;
-  background-color: #007bff;
+  background-color: #4CAF50;
   color: white;
+  padding: 15px 30px;
+  width: 250px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
+  font-size: 16px;
   transition: background-color 0.3s ease;
 }
 
+/* Hover effect for buttons */
 .button:hover {
-  background-color: #0056b3;
+  background-color: #45a049;
 }
 
-.clicked {
-  background-color: #28a745;
+/* Focus effect to indicate the selected button */
+.button:focus {
+  outline: none;
+  background-color: #3e8e41;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .button {
+    width: 80%;
+    padding: 12px 20px;
+  }
 }
