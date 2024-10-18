@@ -3,7 +3,7 @@ const button = document.getElementById('interactiveButton');
 button.addEventListener('click', function() {
   if (button.classList.contains('clicked')) {
     button.classList.remove('clicked');
-    button.textContent = 'Click Me';
+    button.textContent = 'BA-Check Form';
   } else {
     button.classList.add('clicked');
     button.textContent = 'Clicked!';
