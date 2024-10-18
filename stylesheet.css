@@ -1,14 +1,21 @@
 /* General body styling */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  flex-direction: column; /* Stack items vertically */
+  height: 100vh; /* Make sure body takes the full viewport height */
+  margin: 0; /* Remove default margin */
 }
+
+
+h2 {
+  font-family: MONTSERRAT, sans-serif;
+  font-size: 30px;
+  color: rgb(205, 11, 11);
+  margin: 20px 0; /* Vertical margin */
+}
+
 
 /* Container styling for the buttons */
 .button-container {
@@ -27,6 +34,7 @@ body {
 
 /* Styling for individual buttons */
 .button {
+  font-family: MONTSERRAT, sans-serif;
   background-color: #4CAF50;
   color: white;
   padding: 15px 30px;
@@ -40,7 +48,7 @@ body {
 
 /* Hover effect for buttons */
 .button:hover {
-  background-color: #45a049;
+  background-color: #f02d0f;
 }
 
 /* Focus effect to indicate the selected button */
@@ -56,3 +64,4 @@ body {
     padding: 12px 20px;
   }
 }
+
