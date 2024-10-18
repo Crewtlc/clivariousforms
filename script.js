@@ -1,6 +1,6 @@
 const button = document.getElementById('interactiveButton');
 
-button.addEventListener('click', function() {
+button.addEventListener('BA-Check Form', function() {
   if (button.classList.contains('clicked')) {
     button.classList.remove('clicked');
     button.textContent = 'BA-Check Form';
